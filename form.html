@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Заказать билет</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+
+<body>
+  <header>
+    <div class="container header">
+        <div class="logo">
+            <img src='bus.png'>
+            <h2>MegaBus</h2>
+        </div>
+        <h1> Заказать билет</h1>
+    </div>
+</header>
+<section>
+  <div class= "container">
+    <form action="" class="railway">
+        <div class="stripes-block">
+          <div class="line"></div>
+        </div>
+        <h3>Информация о пассажире</h3>
+        <div class="form-group">
+          <div class="item 1">
+            <label for="name">Имя</label>
+              <input class = "name" type="text" id="name" placeholder="Mark Ivanov" required>
+            <label for="pass">Паспортные данные</label>
+              <input class = "passport" type="text" id="pass" placeholder="AB111111" required>
+        </div>
+        <div class="item 2">
+          <label for="email">Email</label>
+            <input class = "email" type="email" id="email" placeholder="megabus@gmail.com" required>
+          <label for="phone">Номер телефона</label>
+            <input class = "phone" type="text" id="phone" placeholder="+375296666666" required>
+          </div>
+        </div>
+        <div class="calendar">
+          <p>Выберите дату: 
+            <input type="date" name="calendar">
+          </p>
+        </div>
+        <div class="city">
+            <label>Город отправления:</label>
+              <select class="custom-select" required>
+                <option selected disabled value="">Выберите город...</option>
+                <option value="minsk">Минск</option>
+                  <option value="brest">Брест</option>
+                  <option value="mogilev">Могилёв</option>
+                  <option value="gomel">Гомель</option>
+                  <option value="grodno">Гродно</option>
+                  <option value="vitebsk">Витебск</option>
+                  <option value="moskva">Москва</option>
+                  <option value="kiev">Киев</option>
+              </select>
+                <label>Город прибытия:</label>
+                <select class="custom-select" required>
+                    <option selected disabled value="">Выберите город...</option>
+                    <option value="minsk">Лондон</option>
+                    <option value="brest">Париж</option>
+                    <option value="mogilev">Берлин</option>
+                    <option value="gomel">Рим</option>
+                    <option value="grodno">Барселона</option>
+                    <option value="vitebsk">Прага</option>
+                    <option value="moskva">Мюнхен</option>
+                    <option value="kiev">Амстердам</option>
+                    <option value="kiev">Милан</option>
+                    <option value="kiev">Варшава</option>
+                    <option value="kiev">Вильнюс</option>
+                </select>
+        </div>
+        <div class="submit-block">
+          <div class="submit-button">
+            <i class="fa fa-train" aria-hidden="true"></i><br>
+            <input type="submit" value="Забронировать билет">
+          </div>
+        </div>
+      </form>
+      </div>
+      </section>
+</body>
+
+</html>

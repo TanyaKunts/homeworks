@@ -1,0 +1,38 @@
+body{
+    font-family: 'Dosis';
+    width: 100%;
+    height: auto;
+
+    background: linear-gradient(to bottom right,rgb(136, 252, 227),rgb(234, 253, 249));
+}
+.container{
+    margin:0 100px;
+}
+.container .logo img{
+    width: 140px;
+    height: 130px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2{
+    font-size: 34px;
+    margin:0;
+}
+.header h1{
+    margin: 90px 150px;
+    font-size: 50px;
+    margin-right: 200px;
+}
+.popular img{
+    width: 254px;
+    height: 169px ;
+}
+.col-3{
+    margin: 10px 0;
+    
+    
+}
