@@ -1,0 +1,193 @@
+body{
+    font-family: 'Montserrat', sans-serif;  
+    margin: 0;
+/* шрифт поменять*/
+}
+div.container{
+    width:1171px;
+    margin: 0px auto auto auto;
+    padding: 43px 43px 40px 60px;
+}
+li{
+    display: inline; 
+    margin-right: 13px;
+    font-size: 12pt;
+
+    /*добавить капс*/
+}
+ul{
+    margin: 0;
+    padding: 4px;
+    
+}
+section{
+    margin:0;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+}
+.blue{
+    color:  rgb(26, 228, 218);;
+}
+header{
+    background-color: #e9e9e9;
+
+}
+.bunner{
+    margin: 180px 0px 50px 600px; 
+}
+p{
+    font-size: 12pt;
+}
+button{
+    margin-top: 20px;
+    font-size: 12pt;
+    padding: 20px 45px;
+    background-color: rgb(26, 228, 218); 
+    border:0;
+    
+}
+div.about{
+    text-align: center;
+    
+}
+div.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.section2, .services, .form{
+    background-color: #f8f9f9;
+} 
+section.blue, .testimonials{
+    background-color: rgb(26, 228, 218); 
+    margin:0;
+    
+}
+div.blue{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+}
+.img1, .img2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.img1 img, .img2 img{
+    width: 380px;
+    height: 335px;
+}
+img{
+    margin:0;
+}
+.more{
+    background-color: #8d8d8d;
+    margin:0
+
+}
+.more p{
+    text-align: center;
+    color: rgb(214, 214, 214);
+   padding: 30px;
+}
+.process, .form{
+    text-align: center;
+    font-size: 12pt;
+}
+.progress video{
+    width: 900px;
+    height: 570px;
+    
+}
+.item{
+    text-align: center;
+}
+.serv1, .serv2{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.services h4
+.services p{
+    font-size: 13px;
+}
+.serv1{
+    padding-top:100px;
+    padding-bottom: 60px;
+}
+.serv2{
+    padding-bottom: 90px;
+}
+.testimonials {
+    text-align: center;
+    color:white
+}
+.testimonials h6{
+    text-transform: uppercase;
+}
+.points{
+    display: flex;
+    justify-content: center;
+
+}
+.point{
+    font-size: 50px;
+    color: rgb(124, 238, 232);
+    margin:20px;
+    
+}
+.bigpoint{
+    font-size: 70px;/*Точки*/
+    margin: 20px;
+}
+.clients {
+    display: flex;
+    justify-content: space-between;
+}
+#name, #email, #title, #comments{
+    width: 320px;
+    height: 47px;
+    border:0;
+    margin:15px;
+}
+#title, #comments{
+    width: 675px;
+
+}
+#comments{
+    height: 170px;
+}
+button.send{
+    width: 182px;/*сдвинуть текст вправо*/
+    height: 54px;
+    background-color: rgb(26, 228, 218);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    font-family:'Montserrat', sans-serif; 
+    margin: 15px 200px 55px;
+
+}
+input{
+    padding:0 10px;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin:100px;
+    color:white
+    
+}
+.footer p{
+    font-size: 11px;
+}
