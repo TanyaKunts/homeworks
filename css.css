@@ -1,0 +1,38 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1150px
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+td, th{
+    border: 3px solid rgb(82, 39, 82);
+    padding: 5px;
+    margin:0;
+    text-align: center;
+}
+form{
+    border: 3px solid rgb(4, 126, 120);
+    padding: 10px;
+    margin:10px 0px;
+}
+input{
+    padding: 3px;
+    margin: 15px 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(53, 52, 52);
+    padding:7px
+}
+button{
+    padding: 7px;
+    border: 1px solid rgb(2, 54, 52);
+    border-radius: 3px;
+    background-color: rgb(200, 216, 213);
+}
+form button{
+    margin-left: 40% ;
+}
+.yellow{
+    background: radial-gradient(white, rgb(249, 250, 197));
+}
