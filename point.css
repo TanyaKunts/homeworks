@@ -1,0 +1,12 @@
+#square{
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+
+}
