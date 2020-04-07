@@ -1,0 +1,23 @@
+[
+    {
+        "id": 25109,
+        "name": "Belita Vitex",
+        "year": 1988,
+        "description": "decription1",
+        "markets": "shop1.json"
+    },
+    {
+        "id": 22309,
+        "name": "Mila",
+        "year": 2001,
+        "description": "decription2",
+        "markets": "shop2.json"
+    },
+    {
+        "id": 24569,
+        "name": "Kosmo",
+        "year": 1994,
+        "description": "decription2",
+        "markets": "shop3.json"
+    }
+]
