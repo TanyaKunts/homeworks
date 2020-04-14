@@ -1,0 +1,14 @@
+#choose{
+    color: transparent;
+    width: 130px;
+    margin: 10px 0;
+    
+}
+.up{
+    margin: 10px 45%; 
+}
+#content{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}

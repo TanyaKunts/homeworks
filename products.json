@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Huawei p20 lite",
+        "description": "decription1",
+        "img": "https://content2.onliner.by/catalog/device/header@2/339d9c63fdea14582fcd489dddaba3ee.jpeg",
+        "count":"30"
+    },
+    {
+        "title": "Huawei p30 lite",
+        "description": "decription2",
+        "img": "https://content2.onliner.by/catalog/device/header@2/d882b98a1b406734271f81fc9508934e.jpeg",
+        "count":"35"
+    }, 
+    {
+        "title": "Huawei p30",
+        "description": "decription3",
+        "img": "https://content2.onliner.by/catalog/device/main/e3331a177d37142043bde0d0d3867886.jpeg",
+        "count":"20"
+    }, 
+    {
+        "title": "Huawei p40 lite",
+        "description": "decription4",
+        "img": "https://content2.onliner.by/catalog/device/header@2/6df885b6edf6a9fb9730e89fc19d2a7c.jpeg",
+        "count":"25"
+    }
+]
