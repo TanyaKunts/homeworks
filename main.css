@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(53, 97, 95);
+    height: 1000px;
+    padding: 3% 22%;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    height: 40px;
+}
+#ip{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: rgb(201, 250, 201);
+    border-radius: 3px;
+}
